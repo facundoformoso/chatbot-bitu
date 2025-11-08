@@ -1,0 +1,162 @@
+[
+  {
+    "question": "¿Qué modelos forman la línea B2Grow y en qué se diferencian?",
+    "answer": "La línea incluye MB2 (base con batería integrada 1037 Wh, 2200 W nominal, 4400 W pico), MB3 (base sin batería 3600 W nominal, 7200 W pico), EB210 (2160 Wh), EB240 (2400 Wh), MOBILE CHASSIS (chasis móvil 1037 Wh y versión todoterreno), inversores AC200 (2200 W) y AC300 (3600 W), y paneles solares plegables 100 W, 200 W, 400 W y 500 W."
+  },
+  {
+    "question": "¿Qué escalabilidad modular permite el sistema?",
+    "answer": "Apilamiento patentado desde ~2 kWh hasta 100 kWh de capacidad y de 2.2 kW hasta 22 kW de salida CA según módulos conectados. No exceder el apilamiento recomendado; límite operativo seguro: no superar 8.5 kWh por riesgo físico y eléctrico."
+  },
+  {
+    "question": "¿Cuáles son las especificaciones técnicas clave del MB2?",
+    "answer": "MB2: 1037 Wh; 16.8 kg; dimensiones 480×300×225.3 mm; 4 salidas AC 2200 W nominal (surge 4400 W); USB-A rápida x2 18 W; USB-C x4 100 W (200 W total); cargador coche 12 V/10 A; XT60 y DC5521; entrada CA 2200 W; entrada solar XT60 11–60 V, 20 A, 1000 W máx."
+  },
+  {
+    "question": "¿Qué ofrece el MB3?",
+    "answer": "MB3 (base principal sin batería): 3600 W nominal (surge 7200 W); peso 9.5 kg; entrada solar opcional 11–60 V 20 A 1000 W máx."
+  },
+  {
+    "question": "¿Qué características tienen las baterías EB210 y EB240?",
+    "answer": "EB210 = 2160 Wh; EB240 = 2400 Wh; ambas ~22 kg; 48 V LFP con más de 3.500 ciclos hasta 80% de capacidad."
+  },
+  {
+    "question": "¿Qué inversores adicionales hay y sus capacidades?",
+    "answer": "AC200: 2200 W (surge 4400 W), peso 5 kg. AC300: 3600 W (surge 7200 W), peso 6.8 kg."
+  },
+  {
+    "question": "¿Qué paneles solares plegables existen y sus características?",
+    "answer": "Paneles plegables 100/200/400/500 W; monocristalinos A+; ETFE transmitancia ≥95%; soportes ajustables; IP67 resistente a agua/polvo. 100 W Vmp 19.8 V Isc 5.33 A; 200 W Vmp 18 V Isc 11.99 A; 400/500 W Vmp 36 V (ver ficha para detalles)."
+  },
+  {
+    "question": "¿Qué tiempos de carga rápida por CA ofrece el sistema?",
+    "answer": "Carga rápida desde CA: 80% ≈ 1.0 hora; 100% ≈ 1.6 horas usando la entrada CA adecuada y potencia recomendada; depende del número de inversores y condiciones de la red."
+  },
+  {
+    "question": "¿Se puede cargar por paneles solares y cuál es la potencia máxima admitida?",
+    "answer": "Sí. Entrada solar máxima por base principal: 1000 W (XT60 11–60 V, 20 A). Recomendación práctica: configurar con paneles SP400W en serie; soporta hasta 3× SP400W en serie según documentación."
+  },
+  {
+    "question": "¿Se puede cargar y descargar simultáneamente?",
+    "answer": "Sí; el equipo admite carga directa sin agotar la estación durante la operación."
+  },
+  {
+    "question": "¿Qué modos UPS hay y para qué sirven?",
+    "answer": "UPS 1: Red conectada al mismo inversor; conmutación automática ≤20 ms; para electrodomésticos no críticos. UPS 2: Red a inversor 1, carga en inversor 2; no 0 ms; indicado para cargas 1.000–2.200 W. UPS 3: Red en inversor 1 y cargas distribuidas a 2 o más inversores; para cargas >2.200 W. No usar con servidores que requieran 0 ms sin hardware certificado."
+  },
+  {
+    "question": "¿Qué protecciones ofrece el BMS?",
+    "answer": "BMS con más de 18 algoritmos de protección que supervisan voltaje, corriente, temperatura, capacidad y balance de celdas; protección contra sobrecarga, cortocircuito y sobretemperatura."
+  },
+  {
+    "question": "¿Cómo es la refrigeración y disipación del sistema?",
+    "answer": "8 disipadores de aleación de aluminio y 10 ventiladores axiales DC sin escobillas con regulación de velocidad adaptativa para control térmico."
+  },
+  {
+    "question": "¿De qué materiales es la carcasa y su resistencia al fuego?",
+    "answer": "Carcasa con plástico ignífugo de clasificación 5VA y chasis de aleación de aluminio fundida a presión para resistencia a impactos."
+  },
+  {
+    "question": "¿Qué advertencias críticas debo tener sobre las baterías y puesta a tierra?",
+    "answer": "No usar baterías incorrectas; riesgo de explosión por exposición a fuego, aplastar, perforar o temperaturas extremas; conectar siempre a tierra según normativa local; no modificar enchufes ni conexiones."
+  },
+  {
+    "question": "¿Cómo control y actualizo el equipo remotamente?",
+    "answer": "Control y actualizaciones vía app EnergyKeeper (iOS ≥11.0; Android ≥5.0). Requiere Wi‑Fi 2.4 GHz y Bluetooth habilitado."
+  },
+  {
+    "question": "¿Qué mantenimiento básico recomiendan?",
+    "answer": "Mantener seco y ventilado; limpiar puertos con paño seco; no bloquear ventilación; evitar golpes y vibraciones; no apilar objetos pesados."
+  },
+  {
+    "question": "¿Cómo almacenar el equipo correctamente?",
+    "answer": "Mantener entre 20–30 °C para prolongar vida útil. Para almacenamiento largo: ciclo cada 3 meses (descarga 0% → carga 100% → descarga 60%). No almacenar >6 meses sin ciclo; evitar temperaturas >45 °C o <0 °C."
+  },
+  {
+    "question": "¿Qué precauciones seguir en la instalación y puesta en servicio?",
+    "answer": "Leer manual o ver video; apagar unidad y módulos antes de conectar/desconectar; tras ensamblar, activar el sistema cargándolo al 100% vía red para activación automática."
+  },
+  {
+    "question": "¿Qué precauciones de apilamiento y disposición de inversores recomiendan?",
+    "answer": "No exceder 8.5 kWh de módulos apilados. Al añadir inversores extra, alternar capas (ej. EB210 → AC200 → EB210 → AC200) para evitar corrientes localizadas y sobrecalentamiento."
+  },
+  {
+    "question": "¿Cómo conectar inversores adicionales?",
+    "answer": "Al agregar un inversor adicional aumentan entrada y salida en 2200 W por inversor (AC200). Asegurar que la unidad principal y el inversor extra estén enchufados en tomas separadas; máximo por puerto 2200 W continuo / 4400 W pico."
+  },
+  {
+    "question": "¿Cómo calcular el tiempo de respaldo para un electrodoméstico?",
+    "answer": "Capacidad usable (Wh) ÷ consumo del electrodoméstico (W) ≈ horas de respaldo. Ejemplo: 1037 Wh ÷ 200 W ≈ 5,2 h (no incluye pérdidas e ineficiencias)."
+  },
+  {
+    "question": "¿Qué pasa si conecto más baterías/inversores de las permitidas?",
+    "answer": "Puede causar sobrecorrientes, sobrecalentamiento y pérdida de garantía. Seguir esquema de apilamiento y límites documentados del fabricante."
+  },
+  {
+    "question": "¿Cómo dimensiono paneles solares para una instalación fija?",
+    "answer": "Calcular consumo diario en Wh; dividir por horas de Sol útiles; considerar pérdidas (~20–30%); dimensionar paneles para cubrir esa demanda y no superar entrada máxima de 1000 W por base."
+  },
+  {
+    "question": "¿Qué adaptaciones eléctricas necesito en la casa para instalarlo?",
+    "answer": "Asegurar tomas con puesta a tierra correctas y suficiente capacidad de circuito. En instalaciones con inversores extra, usar tomas separadas como recomendado."
+  },
+  {
+    "question": "¿Cómo sé que la unidad está cargando correctamente?",
+    "answer": "El indicador de carga girará, el % de batería aumentará y la pantalla LCD mostrará tiempo restante de carga."
+  },
+  {
+    "question": "¿Por qué se agota la batería aun sin dispositivos conectados?",
+    "answer": "Consumo en standby por pantalla y módulos: consumo promedio diario estimado ~120 Wh si la unidad está encendida con módulos cerrados; usar modo ahorro de energía o apagar cuando no se usa."
+  },
+  {
+    "question": "¿Por qué ralentiza la carga al superar 80%?",
+    "answer": "Para proteger la vida útil de la batería, la carga disminuye progresivamente por la curva de carga y equilibrio; al 80% la corriente se reduce."
+  },
+  {
+    "question": "¿Puedo reemplazar piezas yo mismo?",
+    "answer": "No se recomienda; contactar soporte técnico oficial para reparaciones y repuestos."
+  },
+  {
+    "question": "¿Qué pasa si la central eléctrica no funciona tras almacenamiento prolongado?",
+    "answer": "Almacenamiento a baja capacidad produce auto-descarga y posible degradación; seguir ciclos de mantenimiento e contactar soporte si la batería no responde."
+  },
+  {
+    "question": "¿Puedo usar la unidad para equipos médicos críticos?",
+    "answer": "No se recomienda para equipos médicos de emergencia que afecten seguridad personal. Para equipos médicos generales, supervisar el estado y consultar al fabricante del dispositivo médico."
+  },
+  {
+    "question": "¿Qué conectores trae la unidad y qué adaptadores podría necesitar?",
+    "answer": "AC estándar, USB-A, USB-C, DC5521, XT60 y conector para coche. Para otros conectores usar adaptadores compatibles y respetar límites de corriente/potencia."
+  },
+  {
+    "question": "¿Cómo desactivo la cerradura infantil?",
+    "answer": "Mantener presionado simultáneamente el botón de encendido/apagado y el botón DC5521 durante 2 segundos."
+  },
+  {
+    "question": "¿Cómo restablezco a ajustes de fábrica?",
+    "answer": "Mantener presionado el botón de encendido durante 15 segundos hasta escuchar dos pitidos."
+  },
+  {
+    "question": "¿Qué precauciones debo tomar con el modo ahorro de energía al alimentar refrigeradores con medicación?",
+    "answer": "Desactivar modo ahorro al conectar refrigeradores con medicamentos o vacunas para evitar apagados automáticos por fluctuaciones."
+  },
+  {
+    "question": "¿Qué debo saber sobre la luz ambiental y el modo SOS?",
+    "answer": "Pulse el botón para alternar niveles de brillo; mantener presionado 2 segundos activa modo SOS; la barra de luz se acopla/extrae por imanes y se recarga automáticamente al volver a colocarla."
+  },
+  {
+    "question": "¿Qué preguntas frecuentes tiene la UFO LED B2GHB12?",
+    "answer": "La UFO LED B2GHB12: potencia 100/150/200 W (ajustable 100/80/60%), temperaturas 3000K/5500K/6500K, instalación colgante/techo/pared, IP65, garantía 5 años, dimerizable 1-10V (Dim+ púrpura, Dim- gris/rosa), disipador de aluminio y ópticas 60°/90°/120°."
+  },
+  {
+    "question": "¿Dónde se puede usar la UFO LED?",
+    "answer": "Ideal para industrias, depósitos, supermercados, estaciones de servicio, gimnasios, minería, garages y más."
+  },
+  {
+    "question": "¿Qué voltaje admite la UFO LED?",
+    "answer": "Entrada AC220-240V y un rango extendido de 80-264VCA."
+  },
+  {
+    "question": "¿Cómo calcular tiempos de carga con paneles SP400W?",
+    "answer": "1× SP400W: tiempo base según capacidad; 2× SP400W: aprox. mitad del tiempo; 3× SP400W: aprox. un tercio. Valores orientativos; factores reales: irradiación, orientación, temperatura y pérdidas."
+  }
+]

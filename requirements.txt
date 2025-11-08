@@ -1,0 +1,5 @@
+flask
+gunicorn
+Flask-Cors
+openai
+python-dotenv

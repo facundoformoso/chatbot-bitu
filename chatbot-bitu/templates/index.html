@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Bitu Chatbot</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <h1>Bienvenido a Bitu</h1>
+
+  <!-- 💬 Chat flotante -->
+  <div id="bitu-bubble">💬</div>
+
+  <div id="bitu-chat">
+    <div class="bitu-header">🤖 Bitu</div>
+    <div id="bitu-messages"></div>
+    <div class="bitu-input">
+      <input type="text" id="bitu-user-input" placeholder="Escribe tu mensaje..." />
+      <button id="bitu-send">Enviar</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='chatbot.js') }}"></script>
+</body>
+</html>
